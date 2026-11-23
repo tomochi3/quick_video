@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key><string>倍速メーカー</string>
+    <key>CFBundleDisplayName</key><string>倍速メーカー</string>
+    <key>CFBundleExecutable</key><string>SpeedMaker</string>
+    <key>CFBundleIdentifier</key><string>local.codex.speedmaker</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleVersion</key><string>3</string>
+    <key>CFBundleShortVersionString</key><string>1.2</string>
+    <key>LSMinimumSystemVersion</key><string>15.0</string>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeName</key><string>動画</string>
+            <key>CFBundleTypeRole</key><string>Viewer</string>
+            <key>LSHandlerRank</key><string>Alternate</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>public.movie</string>
+                <string>public.video</string>
+                <string>public.mpeg-4</string>
+                <string>com.apple.quicktime-movie</string>
+            </array>
+        </dict>
+    </array>
+</dict>
+</plist>
